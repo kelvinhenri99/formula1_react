@@ -1,0 +1,15 @@
+.rodape {
+    background: linear-gradient(to top, rgb(111, 11, 11), red, rgb(212, 99, 99));
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.rodape h1 {
+    color: white;
+    font-size: 22px;
+}
+
+.rodape p {
+    color: rgb(207, 207, 207);
+    font-size: 20px;
+}
