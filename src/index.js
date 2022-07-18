@@ -5,10 +5,12 @@ import './index.css';
 import Logo from './components/Logo';
 import Web from './main/Web';
 import Rodape from './components/Rodape';
+import Menu from './components/Menu';
 
 ReactDOM.render(
   <div className="web">
     <Logo />
+    <Menu />
     <Web />
 
     <div className="tituloPadrao">
@@ -487,18 +489,18 @@ ReactDOM.render(
       <h1>Queremos saber a sua opnião!</h1>
       <p>Para qual piloto e/ou equipe você torce/gosta?</p>
       <form>
-          <label>
-            <input type="text" name="name" placeholder="Seu nome"/>
-          </label>
-          <label>
-            <input type="text" name="name" placeholder="Nome do piloto"/>
-          </label>
-          <label>
-            <input type="text" name="name" placeholder="Nome da equipe"/>
-          </label>
+        <label>
+          <input type="text" name="name" placeholder="Seu nome"/>
+        </label>
+        <label>
+          <input type="text" name="name" placeholder="Nome do piloto"/>
+        </label>
+        <label>
+          <input type="text" name="name" placeholder="Nome da equipe"/>
+        </label>
           <input type="reset" value="Limpar" className="btn"/>
           <input type="submit" value="Enviar" className="btn"/>
-        </form>
+      </form>
     </div>
 
     <div className="tituloPadrao">
